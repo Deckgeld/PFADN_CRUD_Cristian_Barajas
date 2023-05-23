@@ -1,0 +1,81 @@
+﻿using Passengers.DataAccess;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ATOS.DataAccess.Repositories
+{
+    public class Repository<TId, TEntity> : IRepository<TId, TEntity> where TEntity : class, new()
+    {
+        private readonly PassengersDataContext _context;
+        public Repository(PassengersDataContext context)
+        {
+            _context = context;
+        }
+
+
+        public async Task<TEntity> AddAsync(TEntity entity)
+        {
+            if (entity == null)
+            {
+                throw new ArgumentNullException($"{nameof(AddAsync)} entity must not be null");
+            }
+            try
+            {
+                await _context.AddAsync(entity);
+                await _context.SaveChangesAsync();
+                return entity;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception($"{nameof(entity)} could not be saved: {ex.Message}");
+            }
+        }
+
+        public async Task DeleteAsync(TId id)
+        {
+            var entity = await _context.FindAsync<TEntity>(id);
+            _context.Remove<TEntity>(entity);
+            await _context.SaveChangesAsync();
+        }
+
+        public IQueryable<TEntity> GetAll()
+        {
+            try
+            {
+                return _context.Set<TEntity>();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception($"Couldn't retrive entities: {ex.Message}");
+            }
+        }
+
+        public async Task<TEntity> GetAsync(TId id)
+        {
+            var entity = await _context.FindAsync<TEntity>(id);
+            return entity;
+        }
+
+        public async Task<TEntity> UpdateAsync(TEntity entity)
+        {
+            if (entity == null)
+            {
+                throw new ArgumentNullException($"{nameof(AddAsync)} entity must not be null");
+            }
+            try
+            {
+                _context.Update(entity);
+                await _context.SaveChangesAsync();
+
+                return entity;
+            }
+            catch (Exception ex)
+            {
+                throw new Exception($"{nameof(AddAsync)} entity could not be updated: {ex.Message}");
+            }
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Ga0WRaDFU7UWmmJVoDhwmLEFziCxEaH6YBk8MCJG2Xk=",
+  "Source": "Passengers.WebApi",
+  "BasePath": "_content/Passengers.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

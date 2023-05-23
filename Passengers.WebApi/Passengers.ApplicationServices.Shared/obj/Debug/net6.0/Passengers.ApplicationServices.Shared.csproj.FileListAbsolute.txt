@@ -1,0 +1,12 @@
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.ApplicationServices.Shared\bin\Debug\net6.0\Passengers.ApplicationServices.Shared.deps.json
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.ApplicationServices.Shared\bin\Debug\net6.0\Passengers.ApplicationServices.Shared.dll
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.ApplicationServices.Shared\bin\Debug\net6.0\Passengers.ApplicationServices.Shared.pdb
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.ApplicationServices.Shared\obj\Debug\net6.0\Passengers.ApplicationServices.Shared.csproj.AssemblyReference.cache
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.ApplicationServices.Shared\obj\Debug\net6.0\Passengers.ApplicationServices.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.ApplicationServices.Shared\obj\Debug\net6.0\Passengers.ApplicationServices.Shared.AssemblyInfoInputs.cache
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.ApplicationServices.Shared\obj\Debug\net6.0\Passengers.ApplicationServices.Shared.AssemblyInfo.cs
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.ApplicationServices.Shared\obj\Debug\net6.0\Passengers.ApplicationServices.Shared.csproj.CoreCompileInputs.cache
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.ApplicationServices.Shared\obj\Debug\net6.0\Passengers.ApplicationServices.Shared.dll
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.ApplicationServices.Shared\obj\Debug\net6.0\refint\Passengers.ApplicationServices.Shared.dll
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.ApplicationServices.Shared\obj\Debug\net6.0\Passengers.ApplicationServices.Shared.pdb
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.ApplicationServices.Shared\obj\Debug\net6.0\ref\Passengers.ApplicationServices.Shared.dll

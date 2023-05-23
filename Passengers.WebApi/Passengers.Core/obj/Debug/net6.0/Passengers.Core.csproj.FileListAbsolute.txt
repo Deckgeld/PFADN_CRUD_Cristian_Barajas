@@ -1,0 +1,12 @@
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.Core\bin\Debug\net6.0\Passengers.Core.deps.json
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.Core\bin\Debug\net6.0\Passengers.Core.dll
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.Core\bin\Debug\net6.0\Passengers.Core.pdb
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.Core\obj\Debug\net6.0\Passengers.Core.csproj.AssemblyReference.cache
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.Core\obj\Debug\net6.0\Passengers.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.Core\obj\Debug\net6.0\Passengers.Core.AssemblyInfoInputs.cache
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.Core\obj\Debug\net6.0\Passengers.Core.AssemblyInfo.cs
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.Core\obj\Debug\net6.0\Passengers.Core.csproj.CoreCompileInputs.cache
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.Core\obj\Debug\net6.0\Passengers.Core.dll
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.Core\obj\Debug\net6.0\refint\Passengers.Core.dll
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.Core\obj\Debug\net6.0\Passengers.Core.pdb
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.Core\obj\Debug\net6.0\ref\Passengers.Core.dll
