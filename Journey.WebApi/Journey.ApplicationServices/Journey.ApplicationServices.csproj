@@ -6,4 +6,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Journey.ApplicationServices.Shared\Journey.ApplicationServices.Shared.csproj" />
+    <ProjectReference Include="..\Journey.Core\Journey.Core.csproj" />
+    <ProjectReference Include="..\Journey.DataAccess\Journey.DataAccess.csproj" />
+  </ItemGroup>
+
 </Project>

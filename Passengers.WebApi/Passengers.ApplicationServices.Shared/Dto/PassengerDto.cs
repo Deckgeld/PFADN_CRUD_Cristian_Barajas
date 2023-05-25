@@ -5,11 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Passengers.ApplicationServices.Shared.Dto
+namespace Passengers.Dto
 {
     public class PassengerDto
     {
-        
+        public int Id { get; set; }
         [StringLength(32)]
         [Required]
         public string FirstName { get; set; }

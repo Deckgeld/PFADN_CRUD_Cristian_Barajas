@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using Passengers.Core.Passengers;
 using System;
 using System.Collections.Generic;
@@ -8,11 +10,11 @@ using System.Threading.Tasks;
 
 namespace Passengers.DataAccess
 {
-    public class PassengersDataContext : DbContext
+    public class PassengersDataContext : IdentityDbContext<IdentityUser, IdentityRole, string>
     {
-        public virtual DbSet<Passenger> Passengers { get; set; }
+        public virtual DbSet<PassengerC> Passengers { get; set; }
 
-        public PassengersDataContext(DbContextOptions options) : base(options)
+        public PassengersDataContext(DbContextOptions<PassengersDataContext> options) : base(options)
         {
 
         }

@@ -4,14 +4,14 @@
     "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Ticket.WebApi\\Ticket.ApplicationServices\\Ticket.ApplicationServices.csproj": {}
   },
   "projects": {
-    "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Ticket.WebApi\\Ticket.ApplicationServices\\Ticket.ApplicationServices.csproj": {
+    "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Ticket.WebApi\\Ticket.ApplicationServices.Shared\\Ticket.ApplicationServices.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Ticket.WebApi\\Ticket.ApplicationServices\\Ticket.ApplicationServices.csproj",
-        "projectName": "Ticket.ApplicationServices",
-        "projectPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Ticket.WebApi\\Ticket.ApplicationServices\\Ticket.ApplicationServices.csproj",
+        "projectUniqueName": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Ticket.WebApi\\Ticket.ApplicationServices.Shared\\Ticket.ApplicationServices.Shared.csproj",
+        "projectName": "Ticket.ApplicationServices.Shared",
+        "projectPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Ticket.WebApi\\Ticket.ApplicationServices.Shared\\Ticket.ApplicationServices.Shared.csproj",
         "packagesPath": "C:\\Users\\Deck\\.nuget\\packages\\",
-        "outputPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Ticket.WebApi\\Ticket.ApplicationServices\\obj\\",
+        "outputPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Ticket.WebApi\\Ticket.ApplicationServices.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Deck\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,211 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Ticket.WebApi\\Ticket.ApplicationServices\\Ticket.ApplicationServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Ticket.WebApi\\Ticket.ApplicationServices\\Ticket.ApplicationServices.csproj",
+        "projectName": "Ticket.ApplicationServices",
+        "projectPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Ticket.WebApi\\Ticket.ApplicationServices\\Ticket.ApplicationServices.csproj",
+        "packagesPath": "C:\\Users\\Deck\\.nuget\\packages\\",
+        "outputPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Ticket.WebApi\\Ticket.ApplicationServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Deck\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Ticket.WebApi\\Ticket.ApplicationServices.Shared\\Ticket.ApplicationServices.Shared.csproj": {
+                "projectPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Ticket.WebApi\\Ticket.ApplicationServices.Shared\\Ticket.ApplicationServices.Shared.csproj"
+              },
+              "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Ticket.WebApi\\Ticket.Core\\Ticket.Core.csproj": {
+                "projectPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Ticket.WebApi\\Ticket.Core\\Ticket.Core.csproj"
+              },
+              "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Ticket.WebApi\\Ticket.DataAccess\\Ticket.DataAccess.csproj": {
+                "projectPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Ticket.WebApi\\Ticket.DataAccess\\Ticket.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Ticket.WebApi\\Ticket.Core\\Ticket.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Ticket.WebApi\\Ticket.Core\\Ticket.Core.csproj",
+        "projectName": "Ticket.Core",
+        "projectPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Ticket.WebApi\\Ticket.Core\\Ticket.Core.csproj",
+        "packagesPath": "C:\\Users\\Deck\\.nuget\\packages\\",
+        "outputPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Ticket.WebApi\\Ticket.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Deck\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Ticket.WebApi\\Ticket.DataAccess\\Ticket.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Ticket.WebApi\\Ticket.DataAccess\\Ticket.DataAccess.csproj",
+        "projectName": "Ticket.DataAccess",
+        "projectPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Ticket.WebApi\\Ticket.DataAccess\\Ticket.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Deck\\.nuget\\packages\\",
+        "outputPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Ticket.WebApi\\Ticket.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Deck\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Ticket.WebApi\\Ticket.Core\\Ticket.Core.csproj": {
+                "projectPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Ticket.WebApi\\Ticket.Core\\Ticket.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

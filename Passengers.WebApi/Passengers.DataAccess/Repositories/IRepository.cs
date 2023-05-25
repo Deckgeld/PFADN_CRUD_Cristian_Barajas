@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ATOS.DataAccess.Repositories
+namespace Passengers.DataAccess.Repositories
 {
     public interface IRepository<TId, TEntity> where TEntity : class, new()
     {

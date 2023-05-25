@@ -1,0 +1,12 @@
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Ticket.WebApi\Ticket.Core\bin\Debug\net6.0\Ticket.Core.deps.json
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Ticket.WebApi\Ticket.Core\bin\Debug\net6.0\Ticket.Core.dll
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Ticket.WebApi\Ticket.Core\bin\Debug\net6.0\Ticket.Core.pdb
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Ticket.WebApi\Ticket.Core\obj\Debug\net6.0\Ticket.Core.csproj.AssemblyReference.cache
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Ticket.WebApi\Ticket.Core\obj\Debug\net6.0\Ticket.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Ticket.WebApi\Ticket.Core\obj\Debug\net6.0\Ticket.Core.AssemblyInfoInputs.cache
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Ticket.WebApi\Ticket.Core\obj\Debug\net6.0\Ticket.Core.AssemblyInfo.cs
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Ticket.WebApi\Ticket.Core\obj\Debug\net6.0\Ticket.Core.csproj.CoreCompileInputs.cache
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Ticket.WebApi\Ticket.Core\obj\Debug\net6.0\Ticket.Core.dll
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Ticket.WebApi\Ticket.Core\obj\Debug\net6.0\refint\Ticket.Core.dll
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Ticket.WebApi\Ticket.Core\obj\Debug\net6.0\Ticket.Core.pdb
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Ticket.WebApi\Ticket.Core\obj\Debug\net6.0\ref\Ticket.Core.dll

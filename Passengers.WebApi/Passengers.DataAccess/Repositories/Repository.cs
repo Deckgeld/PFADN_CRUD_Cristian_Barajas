@@ -1,15 +1,17 @@
 ﻿using Passengers.DataAccess;
+using Passengers.Core.Passengers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ATOS.DataAccess.Repositories
+namespace Passengers.DataAccess.Repositories
 {
     public class Repository<TId, TEntity> : IRepository<TId, TEntity> where TEntity : class, new()
     {
-        private readonly PassengersDataContext _context;
+        protected readonly PassengersDataContext _context;
+        protected PassengersDataContext Context { get { return _context; } }
         public Repository(PassengersDataContext context)
         {
             _context = context;

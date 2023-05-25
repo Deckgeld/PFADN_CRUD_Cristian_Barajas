@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Ticket.Core
+{
+    public class TicketC
+    {
+        [Key]
+        public int Id { get; set; }
+        [Required]
+        public int JourneyId { get; set; }
+        [Required]
+        public int PassengerId { get; set; }
+        [Required]
+        public int Seat { get; set; }
+    }
+}

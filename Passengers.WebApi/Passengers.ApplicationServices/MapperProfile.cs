@@ -1,5 +1,5 @@
-﻿using Passengers.ApplicationServices.Shared.Dto;
-using Passengers.Core.Passengers;
+﻿using Passengers.Core.Passengers;
+using Passengers.Dto;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,9 +12,9 @@ namespace Passengers.ApplicationServices
     {
         public MapperProfile() 
         {
-            CreateMap<Passenger, PassengerDto>();
+            CreateMap<PassengerC, PassengerDto>();
 
-            CreateMap<PassengerDto, Passenger>();
+            CreateMap<PassengerDto, PassengerC>();
         }
     }
 }

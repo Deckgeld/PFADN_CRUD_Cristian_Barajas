@@ -1,0 +1,12 @@
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Ticket.WebApi\Ticket.ApplicationServices.Shared\bin\Debug\net6.0\Ticket.ApplicationServices.Shared.deps.json
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Ticket.WebApi\Ticket.ApplicationServices.Shared\bin\Debug\net6.0\Ticket.ApplicationServices.Shared.dll
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Ticket.WebApi\Ticket.ApplicationServices.Shared\bin\Debug\net6.0\Ticket.ApplicationServices.Shared.pdb
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Ticket.WebApi\Ticket.ApplicationServices.Shared\obj\Debug\net6.0\Ticket.ApplicationServices.Shared.csproj.AssemblyReference.cache
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Ticket.WebApi\Ticket.ApplicationServices.Shared\obj\Debug\net6.0\Ticket.ApplicationServices.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Ticket.WebApi\Ticket.ApplicationServices.Shared\obj\Debug\net6.0\Ticket.ApplicationServices.Shared.AssemblyInfoInputs.cache
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Ticket.WebApi\Ticket.ApplicationServices.Shared\obj\Debug\net6.0\Ticket.ApplicationServices.Shared.AssemblyInfo.cs
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Ticket.WebApi\Ticket.ApplicationServices.Shared\obj\Debug\net6.0\Ticket.ApplicationServices.Shared.csproj.CoreCompileInputs.cache
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Ticket.WebApi\Ticket.ApplicationServices.Shared\obj\Debug\net6.0\Ticket.ApplicationServices.Shared.dll
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Ticket.WebApi\Ticket.ApplicationServices.Shared\obj\Debug\net6.0\refint\Ticket.ApplicationServices.Shared.dll
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Ticket.WebApi\Ticket.ApplicationServices.Shared\obj\Debug\net6.0\Ticket.ApplicationServices.Shared.pdb
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Ticket.WebApi\Ticket.ApplicationServices.Shared\obj\Debug\net6.0\ref\Ticket.ApplicationServices.Shared.dll

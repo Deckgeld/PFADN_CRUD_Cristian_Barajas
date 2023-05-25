@@ -1,5 +1,4 @@
-﻿using Passengers.ApplicationServices.Shared.Dto;
-using Passengers.Core.Passengers;
+﻿using Passengers.Dto;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +11,7 @@ namespace Passengers.ApplicationServices.Passengers
     {
         Task<int> AddPassengerAsyc(PassengerDto passenger);
         Task DeletePassengerAsync(int passengerId);
-        Task EditPassengerAsync(PassengerDto passenger);
+        Task EditPassengerAsync(PassengerDto passenger, int id);
 
         Task<List<PassengerDto>> GetPassengersAsync();
         Task<PassengerDto> GetPassengersAsync(int passengerId);

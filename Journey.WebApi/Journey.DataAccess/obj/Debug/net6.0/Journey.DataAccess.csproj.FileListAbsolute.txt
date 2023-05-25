@@ -1,0 +1,17 @@
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Journey.WebApi\Journey.DataAccess\bin\Debug\net6.0\Journey.DataAccess.deps.json
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Journey.WebApi\Journey.DataAccess\bin\Debug\net6.0\Journey.DataAccess.runtimeconfig.json
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Journey.WebApi\Journey.DataAccess\bin\Debug\net6.0\Journey.DataAccess.dll
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Journey.WebApi\Journey.DataAccess\bin\Debug\net6.0\Journey.DataAccess.pdb
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Journey.WebApi\Journey.DataAccess\bin\Debug\net6.0\Journey.Core.dll
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Journey.WebApi\Journey.DataAccess\bin\Debug\net6.0\Journey.Core.pdb
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Journey.WebApi\Journey.DataAccess\obj\Debug\net6.0\Journey.DataAccess.csproj.AssemblyReference.cache
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Journey.WebApi\Journey.DataAccess\obj\Debug\net6.0\Journey.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Journey.WebApi\Journey.DataAccess\obj\Debug\net6.0\Journey.DataAccess.AssemblyInfoInputs.cache
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Journey.WebApi\Journey.DataAccess\obj\Debug\net6.0\Journey.DataAccess.AssemblyInfo.cs
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Journey.WebApi\Journey.DataAccess\obj\Debug\net6.0\Journey.DataAccess.csproj.CoreCompileInputs.cache
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Journey.WebApi\Journey.DataAccess\obj\Debug\net6.0\Journey.DataAccess.csproj.CopyComplete
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Journey.WebApi\Journey.DataAccess\obj\Debug\net6.0\Journey.DataAccess.dll
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Journey.WebApi\Journey.DataAccess\obj\Debug\net6.0\refint\Journey.DataAccess.dll
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Journey.WebApi\Journey.DataAccess\obj\Debug\net6.0\Journey.DataAccess.pdb
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Journey.WebApi\Journey.DataAccess\obj\Debug\net6.0\Journey.DataAccess.genruntimeconfig.cache
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Journey.WebApi\Journey.DataAccess\obj\Debug\net6.0\ref\Journey.DataAccess.dll

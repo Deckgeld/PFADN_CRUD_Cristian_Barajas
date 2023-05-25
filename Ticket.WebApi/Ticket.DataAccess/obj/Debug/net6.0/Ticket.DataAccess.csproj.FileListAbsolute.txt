@@ -1,0 +1,17 @@
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Ticket.WebApi\Ticket.DataAccess\bin\Debug\net6.0\Ticket.DataAccess.deps.json
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Ticket.WebApi\Ticket.DataAccess\bin\Debug\net6.0\Ticket.DataAccess.runtimeconfig.json
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Ticket.WebApi\Ticket.DataAccess\bin\Debug\net6.0\Ticket.DataAccess.dll
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Ticket.WebApi\Ticket.DataAccess\bin\Debug\net6.0\Ticket.DataAccess.pdb
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Ticket.WebApi\Ticket.DataAccess\bin\Debug\net6.0\Ticket.Core.dll
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Ticket.WebApi\Ticket.DataAccess\bin\Debug\net6.0\Ticket.Core.pdb
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Ticket.WebApi\Ticket.DataAccess\obj\Debug\net6.0\Ticket.DataAccess.csproj.AssemblyReference.cache
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Ticket.WebApi\Ticket.DataAccess\obj\Debug\net6.0\Ticket.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Ticket.WebApi\Ticket.DataAccess\obj\Debug\net6.0\Ticket.DataAccess.AssemblyInfoInputs.cache
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Ticket.WebApi\Ticket.DataAccess\obj\Debug\net6.0\Ticket.DataAccess.AssemblyInfo.cs
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Ticket.WebApi\Ticket.DataAccess\obj\Debug\net6.0\Ticket.DataAccess.csproj.CoreCompileInputs.cache
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Ticket.WebApi\Ticket.DataAccess\obj\Debug\net6.0\Ticket.DataAccess.csproj.CopyComplete
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Ticket.WebApi\Ticket.DataAccess\obj\Debug\net6.0\Ticket.DataAccess.dll
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Ticket.WebApi\Ticket.DataAccess\obj\Debug\net6.0\refint\Ticket.DataAccess.dll
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Ticket.WebApi\Ticket.DataAccess\obj\Debug\net6.0\Ticket.DataAccess.pdb
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Ticket.WebApi\Ticket.DataAccess\obj\Debug\net6.0\Ticket.DataAccess.genruntimeconfig.cache
+D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Ticket.WebApi\Ticket.DataAccess\obj\Debug\net6.0\ref\Ticket.DataAccess.dll
