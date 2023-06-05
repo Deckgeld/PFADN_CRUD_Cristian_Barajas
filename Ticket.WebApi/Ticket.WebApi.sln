@@ -5,15 +5,15 @@ VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ticket.WebApi", "Ticket.WebApi\Ticket.WebApi.csproj", "{2E40CBB6-DF55-4B6C-A587-7D69E25C1B6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticket.ApplicationServices", "Ticket.ApplicationServices\Ticket.ApplicationServices.csproj", "{8404F959-372D-4E51-8D09-2C023DB5B2BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ticket.ApplicationServices", "Ticket.ApplicationServices\Ticket.ApplicationServices.csproj", "{8404F959-372D-4E51-8D09-2C023DB5B2BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticket.ApplicationServices.Shared", "Ticket.ApplicationServices.Shared\Ticket.ApplicationServices.Shared.csproj", "{2A600611-3DCD-4D16-841F-2D3C1EA84813}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ticket.ApplicationServices.Shared", "Ticket.ApplicationServices.Shared\Ticket.ApplicationServices.Shared.csproj", "{2A600611-3DCD-4D16-841F-2D3C1EA84813}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticket.Core", "Ticket.Core\Ticket.Core.csproj", "{020EDB67-DE63-4148-B466-2FB25C4B42B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ticket.Core", "Ticket.Core\Ticket.Core.csproj", "{020EDB67-DE63-4148-B466-2FB25C4B42B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticket.DataAccess", "Ticket.DataAccess\Ticket.DataAccess.csproj", "{5F04C32C-62BD-48BD-A33B-323B6AC972EC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ticket.DataAccess", "Ticket.DataAccess\Ticket.DataAccess.csproj", "{5F04C32C-62BD-48BD-A33B-323B6AC972EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticket.UnitTest", "Ticket.UnitTest\Ticket.UnitTest.csproj", "{082E33CD-8F4D-4299-89C1-CDBF8DEE6495}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ticket.UnitTest", "Ticket.UnitTest\Ticket.UnitTest.csproj", "{082E33CD-8F4D-4299-89C1-CDBF8DEE6495}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,0 +1,109 @@
+version: '3.7'
+
+volumes:
+    datapassengers:
+    datajourney:
+    dataticket:
+
+services:
+    passengerslogs:
+        image: mysql:8.0.33
+        container_name: passagers.logs
+        ports:
+            - "33062:3306"
+        restart: always
+        environment:
+            MYSQL_ROOT_PASSWORD: admin
+            MYSQL_DATABASE: logs
+
+    passengers.webapi:
+        container_name: passagers.API
+        build:
+            context: ./Passengers.WebApi/
+            dockerfile: Passengers.WebApi/Dockerfile
+        ports:
+            - "5000:80"
+        restart: always
+        environment: 
+          - DBHOST=passengers.db
+          - ASPNETCORE_ENVIRONMENT=Development
+
+    passengers.db:
+        image: mysql:8.0.33
+        container_name: passagers.db
+        ports:
+            - "33061:3306"
+        environment:
+            MYSQL_ROOT_PASSWORD: admin
+        volumes:
+            - datapassengers:/var/lib/mysql
+    ##########################################################
+    journeylogs:
+        image: mysql:8.0.33
+        container_name: journey.logs
+        ports:
+            - "33072:3306"
+        restart: always
+        environment:
+            MYSQL_ROOT_PASSWORD: admin
+            MYSQL_DATABASE: logs
+
+    journey.webapi:
+        container_name: journey.API
+        build:
+            context: ./Journey.WebApi/
+            dockerfile: Journey.WebApi/Dockerfile
+        ports:
+            - "5001:80"
+        restart: always
+        environment: 
+          - DBHOST=journey.db
+          - ASPNETCORE_ENVIRONMENT=Development
+
+    journey.db:
+        image: mysql:8.0.33
+        container_name: journey.db
+        ports:
+            - "33071:3306"
+        environment:
+            MYSQL_ROOT_PASSWORD: admin
+        volumes:
+            - datajourney:/var/lib/mysql
+    ##########################################################
+    ticketlogs:
+        image: mysql:8.0.33
+        container_name: ticket.logs
+        ports:
+            - "33082:3306"
+        restart: always
+        environment:
+            MYSQL_ROOT_PASSWORD: admin
+            MYSQL_DATABASE: logs
+
+    ticket.webapi:
+        container_name: ticket.API
+        build:
+            context: ./Ticket.WebApi/
+            dockerfile: Ticket.WebApi/Dockerfile
+        ports:
+            - "5002:80"
+            - "777:443"
+        restart: always
+        environment: 
+          - DBHOST=ticket.db
+          - ASPNETCORE_ENVIRONMENT=Development
+
+          #- ASPNETCORE_URLS=https://localhost:5002
+          #- ASPNETCORE_HTTPS_PORT=8001
+          #- ASPNETCORE_Kestrel__Certificates__Default__Password=admin
+          #- ASPNETCORE_Kestrel__Certificates__Default__Path=/https/aspnetapp.pfx
+
+    ticket.db:
+        image: mysql:8.0.33
+        container_name: ticket.db
+        ports:
+            - "33081:3306"
+        environment:
+            MYSQL_ROOT_PASSWORD: admin
+        volumes:
+            - dataticket:/var/lib/mysql

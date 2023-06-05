@@ -22,11 +22,11 @@ namespace Journey.ApplicationServices.Journey
         }
 
 
-        public async Task<int> AddJourneyAsyc(JourneyDto journey)
+        public async Task<JourneyC> AddJourneyAsyc(JourneyDto journey)
         {
             var p = _mapper.Map<JourneyC>(journey);
             await _repository.AddAsync(p);
-            return p.Id;
+            return p;
         }
 
         public async Task DeleteJourneyAsync(int journeyId)
@@ -34,11 +34,11 @@ namespace Journey.ApplicationServices.Journey
             await _repository.DeleteAsync(journeyId);
         }
 
-        public async Task EditJourneyAsync(JourneyDto journey, int Id)
+        public async Task<JourneyC> EditJourneyAsync(JourneyDto journey)
         {
             var p = _mapper.Map<JourneyC>(journey);
-            p.Id= Id;
             await _repository.UpdateAsync(p);
+            return p;
         }
 
         public async Task<List<JourneyDto>> GetJourneysAsync()

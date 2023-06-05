@@ -30,24 +30,18 @@ namespace Passengers.UnitTest
             services.AddControllers();
 
             services.AddDbContext<PassengersDataContext>(options =>
-                options.UseInMemoryDatabase("TicketMicroserviceTest")
+                options.UseInMemoryDatabase("PassagersTest")
             );
 
             services.AddAutoMapper(typeof(Passengers.ApplicationServices.MapperProfile));
 
-            services.AddTransient<IRepository<int, PassengerC>, Repository<int, PassengerC>>();
+            services.AddTransient<IRepository<int, PassengerC>, PassegersRepository>();
             services.AddTransient<IPassengersAppService, PassengersAppService>();
         }
 
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure()
         {
-            app.UseHttpsRedirection();
-            app.UseRouting();
-            app.UseAuthorization();
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapControllers();
-            });
+            
         }
     }
 }

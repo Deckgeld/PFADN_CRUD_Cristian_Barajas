@@ -8,6 +8,10 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
 COPY ["Journey.WebApi/Journey.WebApi.csproj", "Journey.WebApi/"]
+COPY ["Journey.ApplicationServices.Shared/Journey.ApplicationServices.Shared.csproj", "Journey.ApplicationServices.Shared/"]
+COPY ["Journey.ApplicationServices/Journey.ApplicationServices.csproj", "Journey.ApplicationServices/"]
+COPY ["Journey.Core/Journey.Core.csproj", "Journey.Core/"]
+COPY ["Journey.DataAccess/Journey.DataAccess.csproj", "Journey.DataAccess/"]
 RUN dotnet restore "Journey.WebApi/Journey.WebApi.csproj"
 COPY . .
 WORKDIR "/src/Journey.WebApi"

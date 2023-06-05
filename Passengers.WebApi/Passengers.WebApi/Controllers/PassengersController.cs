@@ -46,15 +46,15 @@ namespace Passengers.WebApi.Controllers
         {
             var Result = await _passengersAppService.AddPassengerAsyc(entity);
             _logger.LogInformation("New passenger created: " + entity);
-            return Result;
+            return Result.Id;
         }
 
         // PUT api/<PassengersController>/5
         [Authorize]
-        [HttpPut("{id}")]
-        public async Task Put(int id, PassengerDto entity)
+        [HttpPut]
+        public async Task Put(PassengerDto entity)
         {
-            await _passengersAppService.EditPassengerAsync(entity, id);
+            await _passengersAppService.EditPassengerAsync(entity);
             _logger.LogInformation("Passenger edited: " + entity);
         }
 

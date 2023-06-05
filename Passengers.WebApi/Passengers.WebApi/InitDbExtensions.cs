@@ -24,6 +24,8 @@ namespace Passengers.WebApi
             return app;
         }
 
+        
+
         private static async Task InitRoles(RoleManager<IdentityRole> roleManager)
         {
             try

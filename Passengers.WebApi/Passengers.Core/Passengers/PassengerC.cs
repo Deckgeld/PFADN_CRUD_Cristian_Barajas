@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Passengers.Core.Passengers
 {
-    public class PassengerC
+    public class PassengerC 
     {
         [Key]
         public int Id { get; set; }
@@ -21,3 +21,4 @@ namespace Passengers.Core.Passengers
         public int Age { get; set; }
     }
 }
+

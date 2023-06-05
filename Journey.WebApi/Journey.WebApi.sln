@@ -5,15 +5,15 @@ VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Journey.WebApi", "Journey.WebApi\Journey.WebApi.csproj", "{145F8690-6034-42EC-87D8-152A2231C7F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Journey.ApplicationServices", "Journey.ApplicationServices\Journey.ApplicationServices.csproj", "{40716DF4-6198-4318-9C4B-6EFD6DDFF50F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Journey.ApplicationServices", "Journey.ApplicationServices\Journey.ApplicationServices.csproj", "{40716DF4-6198-4318-9C4B-6EFD6DDFF50F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Journey.ApplicationServices.Shared", "Journey.ApplicationServices.Shared\Journey.ApplicationServices.Shared.csproj", "{EDF61314-F5FC-417B-B9DC-FB0693D816F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Journey.ApplicationServices.Shared", "Journey.ApplicationServices.Shared\Journey.ApplicationServices.Shared.csproj", "{EDF61314-F5FC-417B-B9DC-FB0693D816F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Journey.Core", "Journey.Core\Journey.Core.csproj", "{C58A7657-F68B-4AD4-9716-12EC243DD1ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Journey.Core", "Journey.Core\Journey.Core.csproj", "{C58A7657-F68B-4AD4-9716-12EC243DD1ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Journey.DataAccess", "Journey.DataAccess\Journey.DataAccess.csproj", "{F3FB0C53-3C82-43DD-9D99-FA0FCA8E08F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Journey.DataAccess", "Journey.DataAccess\Journey.DataAccess.csproj", "{F3FB0C53-3C82-43DD-9D99-FA0FCA8E08F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Journey.UnitTest", "Journey.UnitTest\Journey.UnitTest.csproj", "{6CB7A0AB-10DD-4368-997F-66567EB4FEE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Journey.UnitTest", "Journey.UnitTest\Journey.UnitTest.csproj", "{6CB7A0AB-10DD-4368-997F-66567EB4FEE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

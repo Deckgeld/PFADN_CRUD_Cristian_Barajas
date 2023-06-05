@@ -2,12 +2,15 @@
 
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
 WORKDIR /app
-EXPOSE 80
-EXPOSE 443
+EXPOSE 8080
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
 COPY ["Passengers.WebApi/Passengers.WebApi.csproj", "Passengers.WebApi/"]
+COPY ["Passengers.ApplicationServices/Passengers.ApplicationServices.csproj", "Passengers.ApplicationServices/"]
+COPY ["Passengers.ApplicationServices.Shared/Passengers.ApplicationServices.Shared.csproj", "Passengers.ApplicationServices.Shared/"]
+COPY ["Passengers.Core/Passengers.Core.csproj", "Passengers.Core/"]
+COPY ["Passengers.DataAccess/Passengers.DataAccess.csproj", "Passengers.DataAccess/"]
 RUN dotnet restore "Passengers.WebApi/Passengers.WebApi.csproj"
 COPY . .
 WORKDIR "/src/Passengers.WebApi"

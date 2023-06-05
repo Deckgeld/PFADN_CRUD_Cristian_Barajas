@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Ticket.ApplicationServices.Tickets;
+using Ticket.Core;
 using Ticket.Dto;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -13,6 +14,7 @@ namespace Ticket.WebApi.Controllers
     {
         private readonly ITiketsAppService _ticketAppService;
         private readonly ILogger<TicketController> _logger;
+        Checker checker = new Checker();
         public TicketController(ITiketsAppService ticketAppService, ILogger<TicketController> logger)
         {
             _ticketAppService = ticketAppService;
@@ -21,7 +23,7 @@ namespace Ticket.WebApi.Controllers
 
 
         // GET: api/<TicketController>
-        //[Authorize]
+        [Authorize]
         [HttpGet]
         public async Task<IEnumerable<TicketDto>> Get()
         {
@@ -43,19 +45,28 @@ namespace Ticket.WebApi.Controllers
         // POST api/<TicketController>
         [Authorize]
         [HttpPost]
-        public async Task<Int32> Post(TicketDto entity)
+        public async Task<string> Post(TicketDto entity)
         {
-            var Result = await _ticketAppService.AddTicketAsyc(entity);
-            _logger.LogInformation("New ticket created: " + entity);
-            return Result;
+
+            bool isJourneysWebApiSuccessful = await checker.JourneysWebApi(entity.JourneyId);
+            bool isPassagersWebApiSuccessful = await checker.PassagersWebApi(entity.PassengerId);
+            
+            if(isJourneysWebApiSuccessful && isPassagersWebApiSuccessful)
+            {
+                var Result = await _ticketAppService.AddTicketAsyc(entity);
+                _logger.LogInformation("New ticket created: " + entity);
+                return Convert.ToString(Result.Id);
+            }
+            return "PassengerId or JourneyId Not found";
+
         }
 
         // PUT api/<TicketController>/5
         [Authorize]
-        [HttpPut("{id}")]
-        public async Task Put(int id, TicketDto entity)
+        [HttpPut]
+        public async Task Put(TicketDto entity)
         {
-            await _ticketAppService.EditTicketAsync(entity, id);
+            await _ticketAppService.EditTicketAsync(entity);
             _logger.LogInformation("Ticket edited: " + entity);
         }
 

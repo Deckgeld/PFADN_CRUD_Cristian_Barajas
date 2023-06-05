@@ -1,5 +1,4 @@
 ﻿using Passengers.DataAccess;
-using Passengers.Core.Passengers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,8 +9,7 @@ namespace Passengers.DataAccess.Repositories
 {
     public class Repository<TId, TEntity> : IRepository<TId, TEntity> where TEntity : class, new()
     {
-        protected readonly PassengersDataContext _context;
-        protected PassengersDataContext Context { get { return _context; } }
+        private readonly PassengersDataContext _context;
         public Repository(PassengersDataContext context)
         {
             _context = context;
@@ -61,7 +59,7 @@ namespace Passengers.DataAccess.Repositories
             return entity;
         }
 
-        public async Task<TEntity> UpdateAsync(TEntity entity)
+        public virtual async Task<TEntity> UpdateAsync(TEntity entity)
         {
             if (entity == null)
             {

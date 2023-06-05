@@ -48,15 +48,15 @@ namespace Journey.WebApi.Controllers
         {
             var Result = await _journeysAppService.AddJourneyAsyc(entity);
             _logger.LogInformation("New journey created: " + entity);
-            return Result;
+            return Result.Id;
         }
 
         // PUT api/<JourneyController>/5
         [Authorize]
-        [HttpPut("{id}")]
-        public async Task Put(int id, JourneyDto entity)
+        [HttpPut]
+        public async Task Put(JourneyDto entity)
         {
-            await _journeysAppService.EditJourneyAsync(entity, id);
+            await _journeysAppService.EditJourneyAsync(entity);
             _logger.LogInformation("Journey edited: " + entity);
         }
 

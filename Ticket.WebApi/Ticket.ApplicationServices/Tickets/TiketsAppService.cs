@@ -22,11 +22,11 @@ namespace Ticket.ApplicationServices.Tickets
         }
 
 
-        public async Task<int> AddTicketAsyc(TicketDto ticket)
+        public async Task<TicketC> AddTicketAsyc(TicketDto ticket)
         {
             var p = _mapper.Map<TicketC>(ticket);
             await _repository.AddAsync(p);
-            return p.Id;
+            return p;
         }
 
         public async Task DeleteTicketAsync(int ticketId)
@@ -34,11 +34,11 @@ namespace Ticket.ApplicationServices.Tickets
             await _repository.DeleteAsync(ticketId);
         }
 
-        public async Task EditTicketAsync(TicketDto ticket, int id)
+        public async Task<TicketC> EditTicketAsync(TicketDto ticket)
         {
             var p = _mapper.Map<TicketC>(ticket);
-            p.Id = id;
             await _repository.UpdateAsync(p);
+            return p;
         }
 
         public async Task<List<TicketDto>> GetTicketsAsync()

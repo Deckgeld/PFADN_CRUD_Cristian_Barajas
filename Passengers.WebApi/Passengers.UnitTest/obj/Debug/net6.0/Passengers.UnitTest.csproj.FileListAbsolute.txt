@@ -115,8 +115,6 @@ D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.Unit
 D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.UnitTest\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.UnitTest\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
 D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.UnitTest\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
-D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.UnitTest\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
-D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.UnitTest\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
 D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.UnitTest\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
 D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.UnitTest\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
 D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.UnitTest\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
@@ -150,7 +148,6 @@ D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.Unit
 D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.UnitTest\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.UnitTest\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.UnitTest\bin\Debug\net6.0\System.Drawing.Common.dll
-D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.UnitTest\bin\Debug\net6.0\System.IO.Pipelines.dll
 D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.UnitTest\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.UnitTest\bin\Debug\net6.0\System.Security.Permissions.dll
 D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.UnitTest\bin\Debug\net6.0\System.Text.Encodings.Web.dll
@@ -172,11 +169,7 @@ D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.Unit
 D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.UnitTest\bin\Debug\net6.0\Passengers.Core.pdb
 D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.UnitTest\bin\Debug\net6.0\Passengers.DataAccess.pdb
 D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.UnitTest\bin\Debug\net6.0\Passengers.WebApi.pdb
-D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.UnitTest\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
-D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.UnitTest\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.UnitTest\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.UnitTest\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
-D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.UnitTest\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
 D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.UnitTest\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
 D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.UnitTest\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
 D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Passengers.WebApi\Passengers.UnitTest\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll

@@ -22,11 +22,11 @@ namespace Passengers.ApplicationServices.Passengers
             _mapper = mapper;
         }
 
-        public async Task<int> AddPassengerAsyc(PassengerDto passenger)
+        public async Task<PassengerC> AddPassengerAsyc(PassengerDto passenger)
         {
             PassengerC p = _mapper.Map<PassengerC>(passenger);
             await _repository.AddAsync(p);
-            return p.Id;
+            return p;
         }
 
         public async Task DeletePassengerAsync(int passengerId)
@@ -34,11 +34,11 @@ namespace Passengers.ApplicationServices.Passengers
             await _repository.DeleteAsync(passengerId);
         }
 
-        public async Task EditPassengerAsync(PassengerDto passenger, int id)
+        public async Task<PassengerC> EditPassengerAsync(PassengerDto passenger)
         {
             var p = _mapper.Map<PassengerC>(passenger);
-            p.Id = id;
             await _repository.UpdateAsync(p);
+            return p;
         }
 
         public async Task<List<PassengerDto>> GetPassengersAsync()

@@ -8,6 +8,10 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
 COPY ["Ticket.WebApi/Ticket.WebApi.csproj", "Ticket.WebApi/"]
+COPY ["Ticket.ApplicationServices.Shared/Ticket.ApplicationServices.Shared.csproj", "Ticket.ApplicationServices.Shared/"]
+COPY ["Ticket.ApplicationServices/Ticket.ApplicationServices.csproj", "Ticket.ApplicationServices/"]
+COPY ["Ticket.Core/Ticket.Core.csproj", "Ticket.Core/"]
+COPY ["Ticket.DataAccess/Ticket.DataAccess.csproj", "Ticket.DataAccess/"]
 RUN dotnet restore "Ticket.WebApi/Ticket.WebApi.csproj"
 COPY . .
 WORKDIR "/src/Ticket.WebApi"

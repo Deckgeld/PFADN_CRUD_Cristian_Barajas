@@ -5,15 +5,15 @@ VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Passengers.WebApi", "Passengers.WebApi\Passengers.WebApi.csproj", "{CD8FEA89-2E4E-48A8-A1B1-420604098CA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Passengers.DataAccess", "Passengers.DataAccess\Passengers.DataAccess.csproj", "{2DF2EB72-3557-4BF8-A517-92D67EA52EAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Passengers.DataAccess", "Passengers.DataAccess\Passengers.DataAccess.csproj", "{2DF2EB72-3557-4BF8-A517-92D67EA52EAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Passengers.Core", "Passengers.Core\Passengers.Core.csproj", "{A1A08267-4F5E-429C-AE94-E85B7652C610}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Passengers.Core", "Passengers.Core\Passengers.Core.csproj", "{A1A08267-4F5E-429C-AE94-E85B7652C610}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Passengers.ApplicationServices", "Passengers.ApplicationServices\Passengers.ApplicationServices.csproj", "{28D388BA-12C9-457F-A0EB-10A0E4BE53C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Passengers.ApplicationServices", "Passengers.ApplicationServices\Passengers.ApplicationServices.csproj", "{28D388BA-12C9-457F-A0EB-10A0E4BE53C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Passengers.UnitTest", "Passengers.UnitTest\Passengers.UnitTest.csproj", "{693E457A-8391-47B6-A616-553282AA0AA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Passengers.UnitTest", "Passengers.UnitTest\Passengers.UnitTest.csproj", "{693E457A-8391-47B6-A616-553282AA0AA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Passengers.ApplicationServices.Shared", "Passengers.ApplicationServices.Shared\Passengers.ApplicationServices.Shared.csproj", "{9DFEB6DB-90E5-4F83-9110-B2643A2DA8D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Passengers.ApplicationServices.Shared", "Passengers.ApplicationServices.Shared\Passengers.ApplicationServices.Shared.csproj", "{9DFEB6DB-90E5-4F83-9110-B2643A2DA8D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
