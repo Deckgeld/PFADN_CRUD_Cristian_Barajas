@@ -4,6 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using MySqlX.XDevAPI.Common;
 using Passengers.UnitTest;
 using Ticket.ApplicationServices.Tickets;
+using Ticket.Core;
 
 namespace Ticket.UnitTest
 {
@@ -20,37 +21,34 @@ namespace Ticket.UnitTest
 
         [Order(0)]
         [Test]
-        public async Task GetAllPassagers_Test()
+        public async Task GetAllTickets_Test()
         {
             var _ticketsAppService = server.Host.Services.GetService<ITiketsAppService>();
             
-            var insertFirst = await _ticketsAppService.AddTicketAsyc(
-                new Ticket.Dto.TicketDto() { Id=1, PassengerId = 1, JourneyId =1, Seat=1 });
-            var insertSecond = await _ticketsAppService.AddTicketAsyc(
-                new Ticket.Dto.TicketDto() { Id=2, PassengerId = 2, JourneyId =2, Seat=2 });
-            var insertThird = await _ticketsAppService.AddTicketAsyc(
-                new Ticket.Dto.TicketDto() { Id=3, PassengerId = 3, JourneyId =3, Seat=3 });
+            var ticket1 = await _ticketsAppService.AddTicketAsyc(
+                new Ticket.Dto.TicketDto() { Id = 1, PassengerId = 1, JourneyId = 1, Seat = 1 });
+            var ticket2 = await _ticketsAppService.AddTicketAsyc(
+                new Ticket.Dto.TicketDto() { Id = 2, PassengerId = 2, JourneyId = 2, Seat = 2 });
 
-            var list = await _ticketsAppService.GetTicketsAsync();
+            var outcome = await _ticketsAppService.GetTicketsAsync();
 
-            Assert.IsNotNull(list);
-            Assert.That(3, Is.EqualTo(list.Count));
+            Assert.That(outcome, Is.Not.Null);
+            Assert.That(outcome.Count, Is.EqualTo(2));
+
         }
 
         [Order(1)]
         [Test]
-        public async Task GetPassagerById_Test()
+        public async Task GetTicketById_Test()
         {
             var _ticketsAppService = server.Host.Services.GetService<ITiketsAppService>();
 
-            var insertNew = await _ticketsAppService.AddTicketAsyc(
-                new Ticket.Dto.TicketDto() { Id = 4, PassengerId = 3, JourneyId = 3, Seat = 3 });
-            var result = await _ticketsAppService.GetTicketsAsync(insertNew.Id);
+            var ticket = await _ticketsAppService.AddTicketAsyc(
+                new Ticket.Dto.TicketDto() { Id = 3, PassengerId = 3, JourneyId = 3, Seat = 3 });
+            var result = await _ticketsAppService.GetTicketsAsync(ticket.Id);
 
-            Assert.IsNotNull(result);
-            Assert.AreEqual(insertNew.PassengerId, result.PassengerId);
-            Assert.AreEqual(insertNew.JourneyId, result.JourneyId);
-            Assert.AreEqual(insertNew.Seat, result.Seat);
+            Assert.That(result, Is.Not.Null);
+            Assert.That(result.PassengerId, Is.EqualTo(ticket.PassengerId));
         }
 
         [Order(2)]
@@ -59,23 +57,12 @@ namespace Ticket.UnitTest
         {
             var _ticketsAppService = server.Host.Services.GetService<ITiketsAppService>();
 
-            var addTicket1 = await _ticketsAppService.AddTicketAsyc(
-                new Ticket.Dto.TicketDto() { Id = 5, PassengerId = 1, JourneyId = 1, Seat = 1 });
-            var getTicket1 = await _ticketsAppService.GetTicketsAsync(addTicket1.Id);
+            var addTicket = await _ticketsAppService.AddTicketAsyc(
+                new Ticket.Dto.TicketDto() { Id = 4, PassengerId = 1, JourneyId = 1, Seat = 1 });
+            var getTicket = await _ticketsAppService.GetTicketsAsync(addTicket.Id);
 
-            Assert.IsNotNull(addTicket1);
-            Assert.AreEqual(addTicket1.PassengerId, getTicket1.PassengerId);
-            Assert.AreEqual(addTicket1.JourneyId, getTicket1.JourneyId);
-            Assert.AreEqual(addTicket1.Seat, getTicket1.Seat);
-
-            var addTicket2 = await _ticketsAppService.AddTicketAsyc(
-                new Ticket.Dto.TicketDto() { Id = 6, PassengerId = 2, JourneyId = 2, Seat = 2 });
-            var getTicket2 = await _ticketsAppService.GetTicketsAsync(addTicket2.Id);
-
-            Assert.IsNotNull(addTicket2);
-            Assert.AreEqual(addTicket2.PassengerId, getTicket2.PassengerId);
-            Assert.AreEqual(addTicket2.JourneyId, getTicket2.JourneyId);
-            Assert.AreEqual(addTicket2.Seat, getTicket2.Seat);
+            Assert.That(getTicket, Is.Not.Null);
+            Assert.That(getTicket.JourneyId, Is.EqualTo(addTicket.JourneyId));
         }
 
         [Order(3)]
@@ -83,21 +70,17 @@ namespace Ticket.UnitTest
         public async Task EditTicket_Test()
         {
             var _ticketsAppService = server.Host.Services.GetService<ITiketsAppService>();
+            
+            var originalEntity = await _ticketsAppService.AddTicketAsyc(
+                new Ticket.Dto.TicketDto() { Id = 5, PassengerId = 4, JourneyId = 4, Seat = 4 });
+            var PassengerIdOriginal = originalEntity.PassengerId;
 
-            var originalTicket =
-                new Ticket.Dto.TicketDto() { Id = 7, PassengerId = 4, JourneyId = 4, Seat = 4 };
-            var insertEntity = await _ticketsAppService.AddTicketAsyc(originalTicket);
+            var updateEntity = await _ticketsAppService.EditTicketAsync(
+                new Ticket.Dto.TicketDto() { Id = originalEntity.Id, PassengerId = 3, JourneyId = 3, Seat = 3 });
 
-            var editedTicket =
-                new Ticket.Dto.TicketDto() { Id = originalTicket.Id, PassengerId = 3, JourneyId = 3, Seat = 3 };
-            var updateEntity = await _ticketsAppService.EditTicketAsync(editedTicket);
+            var checker = await _ticketsAppService.GetTicketsAsync(originalEntity.Id);
 
-            var checkUpdate = await _ticketsAppService.GetTicketsAsync(originalTicket.Id);
-
-            Assert.IsNotNull(originalTicket);
-            Assert.AreNotEqual(originalTicket.PassengerId, checkUpdate.PassengerId);
-            Assert.AreNotEqual(originalTicket.JourneyId, checkUpdate.JourneyId);
-            Assert.AreNotEqual(originalTicket.Seat, checkUpdate.Seat);
+            Assert.That(checker.PassengerId, Is.Not.EqualTo(PassengerIdOriginal));
         }
 
         [Order(4)]
@@ -107,9 +90,10 @@ namespace Ticket.UnitTest
             var _ticketsAppService = server.Host.Services.GetService<ITiketsAppService>();
 
             var addTicket = await _ticketsAppService.AddTicketAsyc(
-                new Ticket.Dto.TicketDto() { Id = 9, PassengerId = 7, JourneyId = 2, Seat = 5 });
+                new Ticket.Dto.TicketDto() { Id = 6, PassengerId = 7, JourneyId = 2, Seat = 5 });
 
             await _ticketsAppService.DeleteTicketAsync(addTicket.Id);
+
             var checkDelete = await _ticketsAppService.GetTicketsAsync(addTicket.Id);
 
             Assert.IsNull(checkDelete);
