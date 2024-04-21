@@ -115,6 +115,7 @@ builder.Services.AddAuthentication(options =>
 
 var app = builder.Build();
 
+//Crea la BD en automatico
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;

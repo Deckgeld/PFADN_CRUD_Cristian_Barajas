@@ -10,3 +10,15 @@ D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Journey.WebApi\Journey.Core\obj\D
 D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Journey.WebApi\Journey.Core\obj\Debug\net6.0\refint\Journey.Core.dll
 D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Journey.WebApi\Journey.Core\obj\Debug\net6.0\Journey.Core.pdb
 D:\Deck\Documents\GitHub\CRUD_Cristian_Barajas\Journey.WebApi\Journey.Core\obj\Debug\net6.0\ref\Journey.Core.dll
+D:\Deck\Documents\GitHub\PFDN_CRUD_Cristian_Barajas\Journey.WebApi\Journey.Core\bin\Debug\net6.0\Journey.Core.deps.json
+D:\Deck\Documents\GitHub\PFDN_CRUD_Cristian_Barajas\Journey.WebApi\Journey.Core\bin\Debug\net6.0\Journey.Core.dll
+D:\Deck\Documents\GitHub\PFDN_CRUD_Cristian_Barajas\Journey.WebApi\Journey.Core\bin\Debug\net6.0\Journey.Core.pdb
+D:\Deck\Documents\GitHub\PFDN_CRUD_Cristian_Barajas\Journey.WebApi\Journey.Core\obj\Debug\net6.0\Journey.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Deck\Documents\GitHub\PFDN_CRUD_Cristian_Barajas\Journey.WebApi\Journey.Core\obj\Debug\net6.0\Journey.Core.AssemblyInfoInputs.cache
+D:\Deck\Documents\GitHub\PFDN_CRUD_Cristian_Barajas\Journey.WebApi\Journey.Core\obj\Debug\net6.0\Journey.Core.AssemblyInfo.cs
+D:\Deck\Documents\GitHub\PFDN_CRUD_Cristian_Barajas\Journey.WebApi\Journey.Core\obj\Debug\net6.0\Journey.Core.csproj.CoreCompileInputs.cache
+D:\Deck\Documents\GitHub\PFDN_CRUD_Cristian_Barajas\Journey.WebApi\Journey.Core\obj\Debug\net6.0\Journey.Core.sourcelink.json
+D:\Deck\Documents\GitHub\PFDN_CRUD_Cristian_Barajas\Journey.WebApi\Journey.Core\obj\Debug\net6.0\Journey.Core.dll
+D:\Deck\Documents\GitHub\PFDN_CRUD_Cristian_Barajas\Journey.WebApi\Journey.Core\obj\Debug\net6.0\refint\Journey.Core.dll
+D:\Deck\Documents\GitHub\PFDN_CRUD_Cristian_Barajas\Journey.WebApi\Journey.Core\obj\Debug\net6.0\Journey.Core.pdb
+D:\Deck\Documents\GitHub\PFDN_CRUD_Cristian_Barajas\Journey.WebApi\Journey.Core\obj\Debug\net6.0\ref\Journey.Core.dll

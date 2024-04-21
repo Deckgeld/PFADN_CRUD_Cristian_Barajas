@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{145F8690-6034-42EC-87D8-152A2231C7F5}|Journey.WebApi\\Journey.WebApi.csproj|d:\\deck\\documents\\github\\pfdn_crud_cristian_barajas\\journey.webapi\\journey.webapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{145F8690-6034-42EC-87D8-152A2231C7F5}|Journey.WebApi\\Journey.WebApi.csproj|solutionrelative:journey.webapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.WebApi\\Dockerfile",
+              "RelativeDocumentMoniker": "Journey.WebApi\\Dockerfile",
+              "ToolTip": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.WebApi\\Dockerfile",
+              "RelativeToolTip": "Journey.WebApi\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-21T19:04:02.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

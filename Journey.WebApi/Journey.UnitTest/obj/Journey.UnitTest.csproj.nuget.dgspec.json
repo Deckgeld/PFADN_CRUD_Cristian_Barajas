@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.UnitTest\\Journey.UnitTest.csproj": {}
+    "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.UnitTest\\Journey.UnitTest.csproj": {}
   },
   "projects": {
-    "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices.Shared\\Journey.ApplicationServices.Shared.csproj": {
+    "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices.Shared\\Journey.ApplicationServices.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices.Shared\\Journey.ApplicationServices.Shared.csproj",
+        "projectUniqueName": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices.Shared\\Journey.ApplicationServices.Shared.csproj",
         "projectName": "Journey.ApplicationServices.Shared",
-        "projectPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices.Shared\\Journey.ApplicationServices.Shared.csproj",
-        "packagesPath": "C:\\Users\\Deck\\.nuget\\packages\\",
-        "outputPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices.Shared\\obj\\",
+        "projectPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices.Shared\\Journey.ApplicationServices.Shared.csproj",
+        "packagesPath": "C:\\Users\\crist\\.nuget\\packages\\",
+        "outputPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Deck\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\crist\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -55,21 +60,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices\\Journey.ApplicationServices.csproj": {
+    "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices\\Journey.ApplicationServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices\\Journey.ApplicationServices.csproj",
+        "projectUniqueName": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices\\Journey.ApplicationServices.csproj",
         "projectName": "Journey.ApplicationServices",
-        "projectPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices\\Journey.ApplicationServices.csproj",
-        "packagesPath": "C:\\Users\\Deck\\.nuget\\packages\\",
-        "outputPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices\\obj\\",
+        "projectPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices\\Journey.ApplicationServices.csproj",
+        "packagesPath": "C:\\Users\\crist\\.nuget\\packages\\",
+        "outputPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Deck\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\crist\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -83,14 +88,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices.Shared\\Journey.ApplicationServices.Shared.csproj": {
-                "projectPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices.Shared\\Journey.ApplicationServices.Shared.csproj"
+              "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices.Shared\\Journey.ApplicationServices.Shared.csproj": {
+                "projectPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices.Shared\\Journey.ApplicationServices.Shared.csproj"
               },
-              "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.Core\\Journey.Core.csproj": {
-                "projectPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.Core\\Journey.Core.csproj"
+              "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.Core\\Journey.Core.csproj": {
+                "projectPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.Core\\Journey.Core.csproj"
               },
-              "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.DataAccess\\Journey.DataAccess.csproj": {
-                "projectPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.DataAccess\\Journey.DataAccess.csproj"
+              "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.DataAccess\\Journey.DataAccess.csproj": {
+                "projectPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.DataAccess\\Journey.DataAccess.csproj"
               }
             }
           }
@@ -99,6 +104,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -126,21 +136,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.Core\\Journey.Core.csproj": {
+    "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.Core\\Journey.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.Core\\Journey.Core.csproj",
+        "projectUniqueName": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.Core\\Journey.Core.csproj",
         "projectName": "Journey.Core",
-        "projectPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.Core\\Journey.Core.csproj",
-        "packagesPath": "C:\\Users\\Deck\\.nuget\\packages\\",
-        "outputPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.Core\\obj\\",
+        "projectPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.Core\\Journey.Core.csproj",
+        "packagesPath": "C:\\Users\\crist\\.nuget\\packages\\",
+        "outputPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Deck\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\crist\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -160,6 +170,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -181,21 +196,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.DataAccess\\Journey.DataAccess.csproj": {
+    "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.DataAccess\\Journey.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.DataAccess\\Journey.DataAccess.csproj",
+        "projectUniqueName": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.DataAccess\\Journey.DataAccess.csproj",
         "projectName": "Journey.DataAccess",
-        "projectPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.DataAccess\\Journey.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\Deck\\.nuget\\packages\\",
-        "outputPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.DataAccess\\obj\\",
+        "projectPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.DataAccess\\Journey.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\crist\\.nuget\\packages\\",
+        "outputPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Deck\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\crist\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -209,8 +224,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.Core\\Journey.Core.csproj": {
-                "projectPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.Core\\Journey.Core.csproj"
+              "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.Core\\Journey.Core.csproj": {
+                "projectPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.Core\\Journey.Core.csproj"
               }
             }
           }
@@ -219,6 +234,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -260,21 +280,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.UnitTest\\Journey.UnitTest.csproj": {
+    "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.UnitTest\\Journey.UnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.UnitTest\\Journey.UnitTest.csproj",
+        "projectUniqueName": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.UnitTest\\Journey.UnitTest.csproj",
         "projectName": "Journey.UnitTest",
-        "projectPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.UnitTest\\Journey.UnitTest.csproj",
-        "packagesPath": "C:\\Users\\Deck\\.nuget\\packages\\",
-        "outputPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.UnitTest\\obj\\",
+        "projectPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.UnitTest\\Journey.UnitTest.csproj",
+        "packagesPath": "C:\\Users\\crist\\.nuget\\packages\\",
+        "outputPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.UnitTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Deck\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\crist\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -288,20 +308,20 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices.Shared\\Journey.ApplicationServices.Shared.csproj": {
-                "projectPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices.Shared\\Journey.ApplicationServices.Shared.csproj"
+              "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices.Shared\\Journey.ApplicationServices.Shared.csproj": {
+                "projectPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices.Shared\\Journey.ApplicationServices.Shared.csproj"
               },
-              "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices\\Journey.ApplicationServices.csproj": {
-                "projectPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices\\Journey.ApplicationServices.csproj"
+              "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices\\Journey.ApplicationServices.csproj": {
+                "projectPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices\\Journey.ApplicationServices.csproj"
               },
-              "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.Core\\Journey.Core.csproj": {
-                "projectPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.Core\\Journey.Core.csproj"
+              "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.Core\\Journey.Core.csproj": {
+                "projectPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.Core\\Journey.Core.csproj"
               },
-              "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.DataAccess\\Journey.DataAccess.csproj": {
-                "projectPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.DataAccess\\Journey.DataAccess.csproj"
+              "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.DataAccess\\Journey.DataAccess.csproj": {
+                "projectPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.DataAccess\\Journey.DataAccess.csproj"
               },
-              "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.WebApi\\Journey.WebApi.csproj": {
-                "projectPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.WebApi\\Journey.WebApi.csproj"
+              "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.WebApi\\Journey.WebApi.csproj": {
+                "projectPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.WebApi\\Journey.WebApi.csproj"
               }
             }
           }
@@ -310,6 +330,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -365,21 +390,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.WebApi\\Journey.WebApi.csproj": {
+    "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.WebApi\\Journey.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.WebApi\\Journey.WebApi.csproj",
+        "projectUniqueName": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.WebApi\\Journey.WebApi.csproj",
         "projectName": "Journey.WebApi",
-        "projectPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.WebApi\\Journey.WebApi.csproj",
-        "packagesPath": "C:\\Users\\Deck\\.nuget\\packages\\",
-        "outputPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.WebApi\\obj\\",
+        "projectPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.WebApi\\Journey.WebApi.csproj",
+        "packagesPath": "C:\\Users\\crist\\.nuget\\packages\\",
+        "outputPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Deck\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\crist\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -393,14 +418,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices.Shared\\Journey.ApplicationServices.Shared.csproj": {
-                "projectPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices.Shared\\Journey.ApplicationServices.Shared.csproj"
+              "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices.Shared\\Journey.ApplicationServices.Shared.csproj": {
+                "projectPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices.Shared\\Journey.ApplicationServices.Shared.csproj"
               },
-              "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices\\Journey.ApplicationServices.csproj": {
-                "projectPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices\\Journey.ApplicationServices.csproj"
+              "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices\\Journey.ApplicationServices.csproj": {
+                "projectPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices\\Journey.ApplicationServices.csproj"
               },
-              "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.DataAccess\\Journey.DataAccess.csproj": {
-                "projectPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.DataAccess\\Journey.DataAccess.csproj"
+              "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.DataAccess\\Journey.DataAccess.csproj": {
+                "projectPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.DataAccess\\Journey.DataAccess.csproj"
               }
             }
           }
@@ -409,6 +434,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -485,7 +515,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }

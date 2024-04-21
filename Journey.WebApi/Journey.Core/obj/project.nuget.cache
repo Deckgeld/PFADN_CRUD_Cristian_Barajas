@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "urNFEf7IijXhIDbkVI8F1EvM5+5wvTnyMj/7z1Z3ojPzZSKE4QNyuvcPYR2wlU4xoUh57VYePes1rUiDHmIanA==",
+  "dgSpecHash": "WHRg6XMn1jLGJ/0gN2Xf60wXlgdfxI+pxDBNgaqAi/0OSu4pz/tAohY6PkVazoj+6g+D7zEdxS7iezZnbygOtA==",
   "success": true,
-  "projectFilePath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.Core\\Journey.Core.csproj",
+  "projectFilePath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.Core\\Journey.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

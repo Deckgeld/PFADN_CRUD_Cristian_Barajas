@@ -4585,19 +4585,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Deck\\.nuget\\packages\\": {}
+    "C:\\Users\\crist\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.WebApi\\Journey.WebApi.csproj",
+      "projectUniqueName": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.WebApi\\Journey.WebApi.csproj",
       "projectName": "Journey.WebApi",
-      "projectPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.WebApi\\Journey.WebApi.csproj",
-      "packagesPath": "C:\\Users\\Deck\\.nuget\\packages\\",
-      "outputPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.WebApi\\obj\\",
+      "projectPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.WebApi\\Journey.WebApi.csproj",
+      "packagesPath": "C:\\Users\\crist\\.nuget\\packages\\",
+      "outputPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Deck\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\crist\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4611,14 +4611,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices.Shared\\Journey.ApplicationServices.Shared.csproj": {
-              "projectPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices.Shared\\Journey.ApplicationServices.Shared.csproj"
+            "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices.Shared\\Journey.ApplicationServices.Shared.csproj": {
+              "projectPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices.Shared\\Journey.ApplicationServices.Shared.csproj"
             },
-            "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices\\Journey.ApplicationServices.csproj": {
-              "projectPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices\\Journey.ApplicationServices.csproj"
+            "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices\\Journey.ApplicationServices.csproj": {
+              "projectPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices\\Journey.ApplicationServices.csproj"
             },
-            "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.DataAccess\\Journey.DataAccess.csproj": {
-              "projectPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.DataAccess\\Journey.DataAccess.csproj"
+            "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.DataAccess\\Journey.DataAccess.csproj": {
+              "projectPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.DataAccess\\Journey.DataAccess.csproj"
             }
           }
         }
@@ -4627,6 +4627,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -4703,8 +4708,20 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"System.IdentityModel.Tokens.Jwt\" 6.30.1 tiene una vulnerabilidad de gravedad moderada conocida, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
+      "libraryId": "System.IdentityModel.Tokens.Jwt",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.ApplicationServices\\Passengers.ApplicationServices.csproj": {}
+    "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.ApplicationServices\\Passengers.ApplicationServices.csproj": {}
   },
   "projects": {
-    "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.ApplicationServices.Shared\\Passengers.ApplicationServices.Shared.csproj": {
+    "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.ApplicationServices.Shared\\Passengers.ApplicationServices.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.ApplicationServices.Shared\\Passengers.ApplicationServices.Shared.csproj",
+        "projectUniqueName": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.ApplicationServices.Shared\\Passengers.ApplicationServices.Shared.csproj",
         "projectName": "Passengers.ApplicationServices.Shared",
-        "projectPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.ApplicationServices.Shared\\Passengers.ApplicationServices.Shared.csproj",
-        "packagesPath": "C:\\Users\\Deck\\.nuget\\packages\\",
-        "outputPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.ApplicationServices.Shared\\obj\\",
+        "projectPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.ApplicationServices.Shared\\Passengers.ApplicationServices.Shared.csproj",
+        "packagesPath": "C:\\Users\\crist\\.nuget\\packages\\",
+        "outputPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.ApplicationServices.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Deck\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\crist\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -55,21 +60,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.ApplicationServices\\Passengers.ApplicationServices.csproj": {
+    "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.ApplicationServices\\Passengers.ApplicationServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.ApplicationServices\\Passengers.ApplicationServices.csproj",
+        "projectUniqueName": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.ApplicationServices\\Passengers.ApplicationServices.csproj",
         "projectName": "Passengers.ApplicationServices",
-        "projectPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.ApplicationServices\\Passengers.ApplicationServices.csproj",
-        "packagesPath": "C:\\Users\\Deck\\.nuget\\packages\\",
-        "outputPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.ApplicationServices\\obj\\",
+        "projectPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.ApplicationServices\\Passengers.ApplicationServices.csproj",
+        "packagesPath": "C:\\Users\\crist\\.nuget\\packages\\",
+        "outputPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.ApplicationServices\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Deck\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\crist\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -83,14 +88,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.ApplicationServices.Shared\\Passengers.ApplicationServices.Shared.csproj": {
-                "projectPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.ApplicationServices.Shared\\Passengers.ApplicationServices.Shared.csproj"
+              "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.ApplicationServices.Shared\\Passengers.ApplicationServices.Shared.csproj": {
+                "projectPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.ApplicationServices.Shared\\Passengers.ApplicationServices.Shared.csproj"
               },
-              "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.Core\\Passengers.Core.csproj": {
-                "projectPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.Core\\Passengers.Core.csproj"
+              "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.Core\\Passengers.Core.csproj": {
+                "projectPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.Core\\Passengers.Core.csproj"
               },
-              "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.DataAccess\\Passengers.DataAccess.csproj": {
-                "projectPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.DataAccess\\Passengers.DataAccess.csproj"
+              "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.DataAccess\\Passengers.DataAccess.csproj": {
+                "projectPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.DataAccess\\Passengers.DataAccess.csproj"
               }
             }
           }
@@ -99,6 +104,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -126,21 +136,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.Core\\Passengers.Core.csproj": {
+    "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.Core\\Passengers.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.Core\\Passengers.Core.csproj",
+        "projectUniqueName": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.Core\\Passengers.Core.csproj",
         "projectName": "Passengers.Core",
-        "projectPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.Core\\Passengers.Core.csproj",
-        "packagesPath": "C:\\Users\\Deck\\.nuget\\packages\\",
-        "outputPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.Core\\obj\\",
+        "projectPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.Core\\Passengers.Core.csproj",
+        "packagesPath": "C:\\Users\\crist\\.nuget\\packages\\",
+        "outputPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Deck\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\crist\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -160,6 +170,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -181,21 +196,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.DataAccess\\Passengers.DataAccess.csproj": {
+    "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.DataAccess\\Passengers.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.DataAccess\\Passengers.DataAccess.csproj",
+        "projectUniqueName": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.DataAccess\\Passengers.DataAccess.csproj",
         "projectName": "Passengers.DataAccess",
-        "projectPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.DataAccess\\Passengers.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\Deck\\.nuget\\packages\\",
-        "outputPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.DataAccess\\obj\\",
+        "projectPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.DataAccess\\Passengers.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\crist\\.nuget\\packages\\",
+        "outputPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Deck\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\crist\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -209,8 +224,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.Core\\Passengers.Core.csproj": {
-                "projectPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.Core\\Passengers.Core.csproj"
+              "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.Core\\Passengers.Core.csproj": {
+                "projectPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.Core\\Passengers.Core.csproj"
               }
             }
           }
@@ -219,6 +234,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -260,7 +280,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }

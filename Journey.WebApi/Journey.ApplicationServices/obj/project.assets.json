@@ -1052,19 +1052,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Deck\\.nuget\\packages\\": {}
+    "C:\\Users\\crist\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices\\Journey.ApplicationServices.csproj",
+      "projectUniqueName": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices\\Journey.ApplicationServices.csproj",
       "projectName": "Journey.ApplicationServices",
-      "projectPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices\\Journey.ApplicationServices.csproj",
-      "packagesPath": "C:\\Users\\Deck\\.nuget\\packages\\",
-      "outputPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices\\obj\\",
+      "projectPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices\\Journey.ApplicationServices.csproj",
+      "packagesPath": "C:\\Users\\crist\\.nuget\\packages\\",
+      "outputPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Deck\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\crist\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1078,14 +1078,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices.Shared\\Journey.ApplicationServices.Shared.csproj": {
-              "projectPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices.Shared\\Journey.ApplicationServices.Shared.csproj"
+            "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices.Shared\\Journey.ApplicationServices.Shared.csproj": {
+              "projectPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.ApplicationServices.Shared\\Journey.ApplicationServices.Shared.csproj"
             },
-            "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.Core\\Journey.Core.csproj": {
-              "projectPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.Core\\Journey.Core.csproj"
+            "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.Core\\Journey.Core.csproj": {
+              "projectPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.Core\\Journey.Core.csproj"
             },
-            "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.DataAccess\\Journey.DataAccess.csproj": {
-              "projectPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.DataAccess\\Journey.DataAccess.csproj"
+            "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.DataAccess\\Journey.DataAccess.csproj": {
+              "projectPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Journey.WebApi\\Journey.DataAccess\\Journey.DataAccess.csproj"
             }
           }
         }
@@ -1094,6 +1094,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -1121,7 +1126,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
       }
     }
   }

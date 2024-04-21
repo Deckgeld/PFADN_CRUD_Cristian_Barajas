@@ -1008,19 +1008,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Deck\\.nuget\\packages\\": {}
+    "C:\\Users\\crist\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.DataAccess\\Passengers.DataAccess.csproj",
+      "projectUniqueName": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.DataAccess\\Passengers.DataAccess.csproj",
       "projectName": "Passengers.DataAccess",
-      "projectPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.DataAccess\\Passengers.DataAccess.csproj",
-      "packagesPath": "C:\\Users\\Deck\\.nuget\\packages\\",
-      "outputPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.DataAccess\\obj\\",
+      "projectPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.DataAccess\\Passengers.DataAccess.csproj",
+      "packagesPath": "C:\\Users\\crist\\.nuget\\packages\\",
+      "outputPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Deck\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\crist\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1034,8 +1034,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.Core\\Passengers.Core.csproj": {
-              "projectPath": "D:\\Deck\\Documents\\GitHub\\CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.Core\\Passengers.Core.csproj"
+            "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.Core\\Passengers.Core.csproj": {
+              "projectPath": "D:\\Deck\\Documents\\GitHub\\PFDN_CRUD_Cristian_Barajas\\Passengers.WebApi\\Passengers.Core\\Passengers.Core.csproj"
             }
           }
         }
@@ -1044,6 +1044,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -1085,7 +1090,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
       }
     }
   }
